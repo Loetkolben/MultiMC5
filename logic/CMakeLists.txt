@@ -91,6 +91,8 @@ set(LOGIC_SOURCES
 	net/HttpMetaCache.cpp
 	net/PasteUpload.h
 	net/PasteUpload.cpp
+	net/SkinUpload.cpp
+	net/SkinUpload.h
 	net/URLConstants.h
 	net/URLConstants.cpp
 
@@ -314,9 +316,7 @@ set(LOGIC_SOURCES
 	tools/JVisualVM.cpp
 	tools/JVisualVM.h
 	tools/MCEditTool.cpp
-	tools/MCEditTool.h
-
-)
+	tools/MCEditTool.h)
 ################################ COMPILE ################################
 
 # we need zlib
